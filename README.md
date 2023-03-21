@@ -3,23 +3,23 @@
 Implementation for EGSR &amp; CGF 2022 paper "Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow".
 
 ## Reqiurments
-TensorFlow 1.15.0, [NVdiffrast](https://github.com/NVlabs/nvdiffrast) 0.3.0 (others are same as nvdiffrast), or you can install the original conda env via:
+TensorFlow 1.15.0, [NVdiffrast](https://github.com/NVlabs/nvdiffrast) 0.3.0, and install other packages via:
 ``` 
 conda env create -f requirements.yml
 conda activate dfr
 ```
 
-
 ## Usage
-Edit data path, model name, and training configurations directly in main.py.
+* Specify data path, model name, and training configurations directly in main.py.
+* Run:
 ```
 python main.py
 ```
 
 ## Data
 ### Example data: 
-Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
-Unzip it in the base dir:
+* Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
+* Unzip it in the base dir:
 ``` 
 mv path_to_download/dfr.zip ./
 unzip dfr_data.zip 
