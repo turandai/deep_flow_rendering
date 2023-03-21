@@ -1,6 +1,8 @@
 # Deep Flow Rendering
 
-Implementation for EGSR &amp; CGF 2022 paper "Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow".
+Implementation for EGSR &amp; CGF 2022 paper "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)".
+An open-access version is provided by the [Eurographics Digital Library](https://diglib.eg.org/bitstream/handle/10.1111/cgf14593/v41i4pp139-148.pdf).
+
 
 ## Reqiurments
 TensorFlow 1.15.0, [NVdiffrast](https://github.com/NVlabs/nvdiffrast) 0.3.0, and install other packages via:
@@ -21,7 +23,7 @@ python main.py
 * Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
 * Unzip it in the base dir:
 ``` 
-mv path_to_download/dfr.zip ./
+mv path_to_download/dfr_data.zip ./
 unzip dfr_data.zip 
 ```
 ### Custome data: 
