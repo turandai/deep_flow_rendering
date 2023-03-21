@@ -22,7 +22,7 @@ python main.py
 
 ## Data
 ### Example data: 
-* Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
+* Download example data used in the paper from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
 * Unzip it in the _**dfr**_ base dir:
 ``` 
 mv path_to_download/dfr_data.zip ./
