@@ -10,6 +10,7 @@ tensorflow 1.15.0, nvdiffrast 0.3.0 (others are same as nvdiffrast), or you can 
 Edit model name and training configurations directly in main.py.
 
 ### Data
-1. Example data: download from [here](https://github.com/turandai/dfr).
-2. Custome data: 
+1. Example data: 
+$qquad$ download from [here](https://github.com/turandai/dfr).
+3. Custome data: 
    &emsp;&emsp; use [COLMAP](https://github.com/colmap/colmap) for pose estimation and mesh reconstruction.
