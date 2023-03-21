@@ -33,7 +33,7 @@ unzip dfr_data.zip
 * Use [COLMAP](https://github.com/colmap/colmap)'s:
   * Sparse reconstruction for camera poses (use pinhole model and txt output) to get _**cameras.txt**_ and _**images.txt**_,
   * Dense reconstruction for mesh (might need manual configuration for a fine mesh) and convert it into .obj format.
-* Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) to generate texture atlas for _**mesh.obj**_.
+* Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) to generate texture atlas for the reconstructed _**mesh.obj**_.
 * Arrange your custome data dir _**custome_scene**_ in the same way as the example data:
 ``` 
 dfr/
