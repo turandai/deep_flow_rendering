@@ -21,7 +21,7 @@ Edit model name and training configurations directly in main.py.
 </br>&emsp;&emsp;&emsp;  Dense reconstruction for mesh (might need manual configuration for a fine mesh).
 </br>&emsp;  Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) for UV unwraping.
 </br>&emsp;  Arrange your **custome** data dir as:
-```
+``` 
 dfr
 |—— code
 |—— result
