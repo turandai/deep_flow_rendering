@@ -11,6 +11,6 @@ Edit model name and training configurations directly in main.py.
 
 ### Data
 1. Example data: 
-&ensp; - download from [here](https://github.com/turandai/dfr).
+&nbsp; - download from [here](https://github.com/turandai/dfr).
 3. Custome data: 
    &emsp;&emsp; use [COLMAP](https://github.com/colmap/colmap) for pose estimation and mesh reconstruction.
