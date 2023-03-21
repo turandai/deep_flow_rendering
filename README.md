@@ -17,7 +17,21 @@ Edit model name and training configurations directly in main.py.
 <pre><code> unzip dfr_data.zip </pre></code>
 3. Custome data: 
 </br>&emsp;  Use [COLMAP](https://github.com/colmap/colmap) to:
-</br>&emsp;&emsp;  Sparse reconstruction for camera poses (use pinhole model and txt output),
-</br>&emsp;&emsp;  Dense reconstruction for mesh (might need manual configuration for a fine mesh).
+</br>&emsp;&emsp;&emsp;  Sparse reconstruction for camera poses (use pinhole model and txt output),
+</br>&emsp;&emsp;&emsp;  Dense reconstruction for mesh (might need manual configuration for a fine mesh).
 </br>&emsp;  Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) for UV unwraping.
 </br>&emsp;  Arrange your **custome** data dir as:
+'''
+dfr
+|—— code
+|—— result
+|—— data
+    |—— **custome**
+        |—— images
+            |—— img_0.jpg
+                ...
+            |—— img_n.jpg
+        |—— cameras.txt
+        |—— images.txt
+        |—— mesh.obj
+'''
