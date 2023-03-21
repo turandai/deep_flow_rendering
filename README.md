@@ -13,5 +13,11 @@ Edit model name and training configurations directly in main.py.
 ### Data
 1. Example data: 
 </br>&emsp;  Download from [here](https://github.com/turandai/dfr).
+</br>&emsp;  Unzip it in the base dir:
+<pre><code> unzip dfr_data.zip </pre></code>
 3. Custome data: 
-</br>&emsp;  Use [COLMAP](https://github.com/colmap/colmap) for camera(pinhole) pose estimation and Poisson mesh reconstruction.
+</br>&emsp;  Use [COLMAP](https://github.com/colmap/colmap) to:
+</br>&emsp;&emsp;  Sparse reconstruction for camera poses (use pinhole model and txt output),
+</br>&emsp;&emsp;  Dense reconstruction for mesh (might need manual configuration for a fine mesh).
+</br>&emsp;  Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) for UV unwraping.
+</br>&emsp;  Arrange your **custome** data dir as:
