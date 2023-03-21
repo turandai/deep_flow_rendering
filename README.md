@@ -4,7 +4,9 @@ Implementation for EGSR &amp; CGF 2022 paper "Deep Flow Rendering: View Synthesi
 
 ### Reqiurments
 tensorflow 1.15.0, nvdiffrast 0.3.0 (others are same as nvdiffrast), or you can install the original conda env via:
-''' conda env create -f requirements.yml '''
+''' 
+conda env create -f requirements.yml 
+'''
 
 ### Usage
 Edit model name and training configurations directly in main.py.
