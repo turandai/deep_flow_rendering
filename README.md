@@ -12,9 +12,10 @@ conda activate dfr
 ```
 
 ## Usage
-* Specify data path, model name, and training configurations directly in _**main.py**_.
+* Specify data path, model name, and training configurations directly in _**code/main.py**_.
 * Run:
 ```
+cd code
 python main.py
 ```
 
