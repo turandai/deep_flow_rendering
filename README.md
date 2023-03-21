@@ -12,6 +12,7 @@ conda activate dfr
 ```
 
 ## Usage
+* Clone this repository and prepare test data as below.
 * Specify data path, model name, and training configurations directly in _**code/main.py**_.
 * Run:
 ```
@@ -22,7 +23,7 @@ python main.py
 ## Data
 ### Example data: 
 * Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
-* Unzip it in the base dir:
+* Unzip it in the _**dfr**_ base dir:
 ``` 
 mv path_to_download/dfr_data.zip ./
 unzip dfr_data.zip 
