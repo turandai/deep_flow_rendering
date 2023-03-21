@@ -18,7 +18,7 @@ python main.py
 
 ## Data
 ### Example data: 
-Download from [here](https://github.com/turandai/dfr).
+Download from [here](https://drive.google.com/file/d/1BJkghOcSqPv10ZhDOH2sWg1KyIM8Ygg8/view?usp=share_link).
 Unzip it in the base dir:
 ``` 
 mv path_to_download/dfr.zip ./
@@ -29,7 +29,7 @@ unzip dfr_data.zip
   * Sparse reconstruction for camera poses (use pinhole model and txt output) to get _**cameras.txt**_ and _**images.txt**_,
   * Dense reconstruction for mesh (might need manual configuration for a fine mesh) to get _**mesh.obj**_.
   * Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) to generate texture atlas for _**mesh.obj**_.
-* Arrange your custome data dir custome_scene as the way same as the example data:
+* Arrange your custome data dir custome_scene in the same way as the example data:
 ``` 
 dfr/
 |—— code/
