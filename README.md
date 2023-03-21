@@ -49,17 +49,17 @@ dfr/
 
 ## Citation
 ```
-@article{https://doi.org/10.1111/cgf.14593,
-author = {Dai, Pinxuan and Xie, Ning},
-title = {Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow},
-journal = {Computer Graphics Forum},
-volume = {41},
-number = {4},
-pages = {139-148},
-keywords = {CCS Concepts, • Computing methodologies → Image-based rendering, Neural networks},
-doi = {https://doi.org/10.1111/cgf.14593},
-url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14593},
-year = {2022}
+@article{CGF_Dai_2022,
+    author = {Dai, Pinxuan and Xie, Ning},
+    title = {Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow},
+    journal = {Computer Graphics Forum},
+    volume = {41},
+    number = {4},
+    pages = {139-148},
+    keywords = {CCS Concepts, • Computing methodologies → Image-based rendering, Neural networks},
+    doi = {https://doi.org/10.1111/cgf.14593},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14593},
+    year = {2022}
 }
 ```
