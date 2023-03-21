@@ -50,7 +50,7 @@ dfr/
 
 ## Citation
 ```
-@article{CGF_Dai_2022,
+@article{CGF_DaiDFR2022,
     author = {Dai, Pinxuan and Xie, Ning},
     title = {Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow},
     journal = {Computer Graphics Forum},
