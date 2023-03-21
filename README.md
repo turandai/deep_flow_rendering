@@ -1,7 +1,7 @@
 # Deep Flow Rendering
 
-Implementation for EGSR &amp; CGF 2022 paper "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)".</br>
-An open-access version is provided by the [Eurographics Digital Library](https://diglib.eg.org/bitstream/handle/10.1111/cgf14593/v41i4pp139-148.pdf).
+Implementation for Computer Graphics Forum (2022) paper "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)".</br>
+An open-access version of the paper is provided by the [Eurographics Digital Library](https://diglib.eg.org/bitstream/handle/10.1111/cgf14593/v41i4pp139-148.pdf).
 
 
 ## Reqiurments
