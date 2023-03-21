@@ -33,7 +33,8 @@ unzip dfr_data.zip
   * Dense reconstruction for mesh (might need manual configuration for a fine mesh) to get _**mesh.obj**_.
   * Use [Blender](https://www.blender.org/) (or any other equivalent like [xatlas](https://github.com/jpcy/xatlas)) to generate texture atlas for _**mesh.obj**_.
 * Arrange your custome data dir custome_scene in the same way as the example data:
-``` dfr/
+``` 
+dfr/
 |—— code/
 |—— result/
 |—— data/
