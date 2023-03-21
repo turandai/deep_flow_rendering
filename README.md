@@ -20,7 +20,7 @@ python main.py
 1. Example data: 
 </br>&emsp;  Download from [here](https://github.com/turandai/dfr).
 </br>&emsp;  Unzip it in the base dir:
-``` 
+&emsp;``` 
 mv path_to_download/dfr.zip ./
 unzip dfr_data.zip 
 ```
