@@ -1,7 +1,7 @@
 # Deep Flow Rendering
 
 This is the original implementation for the Computer Graphics Forum (2022) paper:
-</br> "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)"
+</br> "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)",
 </br> Pinxuan Dai & Ning Xie, UESTC.</br></br>
 ![alt text](https://github.com/turandai/dfr/blob/main/teaser.png)
 </br> An open-access version of the paper is avaliable at [Eurographics Digital Library](https://diglib.eg.org/bitstream/handle/10.1111/cgf14593/v41i4pp139-148.pdf).
