@@ -13,7 +13,7 @@ conda activate dfr
 ```
 
 ## Usage
-* Clone this repository and prepare test data as below.
+* Clone this repository and prepare test data as [below](https://github.com/turandai/dfr#data).
 * Specify data path, model name, and training configurations directly in _**code/main.py**_.
 * Run:
 ```
