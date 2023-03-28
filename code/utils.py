@@ -519,8 +519,8 @@ class ReFlow:
         tex_color = tf.multiply(t[-1:, ..., :3], 1)
 
         _, ref_w, dif_w, _, _, dif_t_fin = self.flow_graph(feat[:-1], feat[-1:], ref_color, tex_color[-1:], mv * resolution, f2 * resolution, f1 * resolution, wm, m[-1:], p[-1:, ..., :3], reuse=True)
-        # lrn_color_0 = self.fuse_graph(tex_color[-1:], dif_t_fin, p[-1:, ..., :3], m[-1:], reuse=True)
-        lrn_color_0 = tf.add(tex_color[-1:], dif_t_fin)
+        lrn_color_0 = self.fuse_graph(tex_color[-1:], dif_t_fin, p[-1:, ..., :3], m[-1:], reuse=True)
+#         lrn_color_0 = tf.add(tex_color[-1:], dif_t_fin)
         ref_b, ref_bt, dif_b = self.blend_test(ref_w, dif_w, tex_color[-1:], feat[:-1], feat[-1:], wm, m[-1:])
 
         w2p_1 = tf.concat([w2p_temp[:-2], w2p_temp[-1:]], axis=0)
@@ -532,8 +532,8 @@ class ReFlow:
         tex_color = tf.multiply(t[-1:, ..., :3], 1)
 
         _, ref_w, dif_w, _, _, dif_t_fin = self.flow_graph(feat[:-1], feat[-1:], ref_color, tex_color[-1:], mv * resolution, f2 * resolution, f1*resolution, wm, m[-1:], p[-1:, ..., :3], reuse=True)
-        # lrn_color_1 = self.fuse_graph(tex_color[-1:], dif_t_fin, p[-1:, ..., :3], m[-1:], reuse=True)
-        lrn_color_1 = tf.add(tex_color[-1:], dif_t_fin)
+        lrn_color_1 = self.fuse_graph(tex_color[-1:], dif_t_fin, p[-1:, ..., :3], m[-1:], reuse=True)
+#         lrn_color_1 = tf.add(tex_color[-1:], dif_t_fin)
         ref_b, ref_bt, dif_b = self.blend_test(ref_w, dif_w, tex_color[-1:], feat[:-1], feat[-1:], wm, m[-1:])
 
         loss_coh = tf.reduce_mean(tf.abs(lrn_color_0 - lrn_color_1))
@@ -642,8 +642,8 @@ class ReFlow:
 
         feat_w, ref_w, dif_w, flow_p, dif_t, dif_t_fin = self.flow_graph(feat_r, feat_t, ref_r, tex_t, flow_rt, flow_mt, flow_rm, mask_w, mask_t, pos_t, reuse=None)
 
-        # lrn_t = self.fuse_graph(tex_t, dif_t_fin, pos_t, mask_t, reuse=None)
-        lrn_t = tf.add(tex_t, dif_t_fin, name='lrn_t')
+        lrn_t = self.fuse_graph(tex_t, dif_t_fin, pos_t, mask_t, reuse=None)
+#         lrn_t = tf.add(tex_t, dif_t_fin, name='lrn_t')
 
 
 
