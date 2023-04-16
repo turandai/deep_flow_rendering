@@ -21,19 +21,6 @@ from video import *
 
 
 
-def learn_texture():
-    mesh, data = prepare_data_mitsuba()
-
-    # mesh, data = prepare_data()
-
-    tl = Texture_Learner()
-    # tex = tl.train_texture_(mesh, data, train_seq, test_seq, 0.001, 10000, result_path, wr_img=True)
-
-    tex = tl.train_texture(mesh, data, train_seq, test_seq, 0.001, 2000, img_path, result_path, wr_img=True)
-
-    return tex
-
-
 def prepare_data_colmap():
     # read mesh
     mesh = read_obj(mesh_path)
