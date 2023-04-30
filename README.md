@@ -3,7 +3,7 @@
 This is the original implementation for the Computer Graphics Forum (2022) paper:
 </br> "[**Deep Flow Rendering: View Synthesis via Layer-aware Reflection Flow**](https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14593)",
 </br> Pinxuan Dai & Ning Xie, UESTC.</br></br>
-![alt text](https://github.com/turandai/dfr/blob/main/teaser.jpg)
+<!-- ![alt text](https://github.com/turandai/dfr/blob/main/teaser.jpg) -->
 * Open-access paper is avaliable at [Eurographics Digital Library](https://diglib.eg.org/bitstream/handle/10.1111/cgf14593/v41i4pp139-148.pdf).
 * Oral recording at EGSR 2022 and supplementary video are [here](https://www.bilibili.com/video/BV14Z4y1i7id/).
 
