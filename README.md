@@ -19,7 +19,7 @@ conda activate dfr
 * Specify data path, model name, and training configurations directly in _**code/main.py**_.
 * Run:
 ```
-cd code
+cd dfr/code
 python main.py
 ```
 
