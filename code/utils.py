@@ -125,7 +125,7 @@ def max_pool(data_in):
 
 
 def positional_encode(feat, L):
-    # NHW*C -> NHW*2L
+    # NHW*C -> NHW*C2L
     def encode(i):
         return tf.concat([tf.sin(feat * 2**i * np.pi), tf.cos(feat * 2**i * np.pi)], axis=-1)
     return tf.concat([encode(i) for i in range(L)], axis=-1)
